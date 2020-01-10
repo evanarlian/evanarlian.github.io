@@ -25817,10 +25817,10 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio,
 	cr.plugins_.Keyboard,
 	cr.plugins_.Sprite,
-	cr.plugins_.TextBox,
-	cr.plugins_.Tilemap,
 	cr.plugins_.TiledBg,
 	cr.plugins_.Text,
+	cr.plugins_.TextBox,
+	cr.plugins_.Tilemap,
 	cr.behaviors.bound,
 	cr.behaviors.Physics,
 	cr.behaviors.Bullet,
@@ -25854,6 +25854,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio.prototype.acts.SetVolume,
 	cr.plugins_.Text.prototype.acts.SetVisible,
 	cr.plugins_.TiledBg.prototype.acts.SetVisible,
+	cr.plugins_.TextBox.prototype.acts.SetVisible,
 	cr.plugins_.Audio.prototype.acts.StopAll,
 	cr.system_object.prototype.acts.GoToLayout,
 	cr.system_object.prototype.cnds.OnLayoutStart,
@@ -25879,7 +25880,6 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Bullet.prototype.exps.Speed,
 	cr.plugins_.Tilemap.prototype.acts.SetY,
 	cr.plugins_.Tilemap.prototype.exps.Y,
-	cr.plugins_.Tilemap.prototype.cnds.CompareY,
-	cr.plugins_.TextBox.prototype.acts.SetVisible
+	cr.plugins_.Tilemap.prototype.cnds.CompareY
 ];};
 
