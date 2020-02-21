@@ -1,1 +1,0 @@
-alert("This game (website content) will be removed at the end of the semester");
